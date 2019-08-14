@@ -1,0 +1,6 @@
+Changes
+lib/Acme/Glue.pm
+Makefile.PL
+MANIFEST
+README.md
+t/glue.t
