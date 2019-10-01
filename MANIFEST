@@ -4,3 +4,5 @@ Makefile.PL
 MANIFEST
 README.md
 t/glue.t
+snippets/LEEJO/hopscotch.p6
+snippets/LEEJO/transform.pl
