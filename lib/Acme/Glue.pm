@@ -62,6 +62,10 @@ Here are the snippets that accompany the photo project
 
     say @play.reverse.join( "\n" );
 
+=head2 SLU (MAZE.BAS)
+
+    10 PRINT CHR$(205.5+RND(1));:GOTO 10
+
 =head1 THANKS
 
 Thanks to all who contributed a snippet
