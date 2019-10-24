@@ -56,6 +56,18 @@ Here are the snippets that accompany the photo project
 
    10 PRINT CHR$(205.5+RND(1));:GOTO 10
 
+## SLU (schwartzian_transform.pl)
+
+    #!/usr/bin/env perl
+    # https://en.wikipedia.org/wiki/Schwartzian_transform
+    # Sort list of words according to word length
+
+    print "$_\n" foreach
+      map  { $_->[0] }
+      sort { $a->[1] <=> $b->[1] or $a->[0] cmp $b->[0] }
+      map  { [$_, length($_)] }
+      qw(demo of schwartzian transform);
+
 # THANKS
 
 Thanks to all who contributed a snippet
