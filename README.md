@@ -4,7 +4,7 @@ Acme::Glue - A placeholder module for code accompanying a Perl photo project
 
 # VERSION
 
-2019.10
+2019.11
 
 # DESCRIPTION
 
@@ -54,9 +54,9 @@ Here are the snippets that accompany the photo project
 
 ## SLU (MAZE.BAS)
 
-   10 PRINT CHR$(205.5+RND(1));:GOTO 10
+    10 PRINT CHR$(205.5+RND(1));:GOTO 10
 
-## SLU (schwartzian_transform.pl)
+## SLU (schwartzian\_transform.pl)
 
     #!/usr/bin/env perl
     # https://en.wikipedia.org/wiki/Schwartzian_transform
@@ -75,6 +75,10 @@ Thanks to all who contributed a snippet
 # SEE ALSO
 
 [https://leejo.github.io/projects/](https://leejo.github.io/projects/)
+
+[https://www.youtube.com/watch?v=ir6f2SvsXPA&feature=youtu.be&list=PLOOlhkMvt\_o4y627mpaCGrO4ughSEeUgb&t=1046](https://www.youtube.com/watch?v=ir6f2SvsXPA&feature=youtu.be&list=PLOOlhkMvt_o4y627mpaCGrO4ughSEeUgb&t=1046)
+
+[https://leejo.github.io/acme-glue-talk/presentation.html#1](https://leejo.github.io/acme-glue-talk/presentation.html#1)
 
 # AUTHOR
 
