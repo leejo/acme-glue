@@ -4,7 +4,7 @@ use utf8;
 use strict;
 use warnings;
 
-$Acme::Glue::VERSION = "2022.11";
+$Acme::Glue::VERSION = "2023.07";
 
 =encoding utf8
 
@@ -14,7 +14,7 @@ Acme::Glue - A placeholder module for code accompanying a Perl photo project
 
 =head1 VERSION
 
-2022.11
+2023.07
 
 =head1 DESCRIPTION
 
@@ -117,6 +117,17 @@ Here are the snippets that accompany the photo project
 =head2 LEEJO (quine - a program that prints itself out)
 
     $_=q(print"\$_=q($_);eval;");eval;
+
+=head2 LEEJO (perl5 LOC count as of 5.38 release)
+
+    % git branch
+    * blead
+    % find . -name "*.[ch]" | xargs wc -l | sort -nr | head -n5
+      788279 total
+      436086 ./charclass_invlists.h
+       17540 ./sv.c
+       16254 ./regcomp.c
+       15712 ./op.c
 
 =head2 SLU (MAZE.BAS)
 
