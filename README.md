@@ -4,7 +4,7 @@ Acme::Glue - A placeholder module for code accompanying a Perl photo project
 
 # VERSION
 
-2023.07
+2023.08
 
 # DESCRIPTION
 
@@ -23,7 +23,7 @@ are shot at.
 
 # SNIPPETS
 
-Here are the snippets that accompany the photo project
+Here are the snippets that may accompany the photo project
 
 ## LEEJO (transform.pl)
 
@@ -118,6 +118,17 @@ Here are the snippets that accompany the photo project
        17540 ./sv.c
        16254 ./regcomp.c
        15712 ./op.c
+
+## MIKESTOK (soundex "joke")
+
+    sub Soundex
+    {
+      local ($_, $f) = shift;
+
+      y;a-z;A-Z;;y;A-Z;;cd;$_ ne q???do{($f)=m;^(.);;s;$f+;;;
+      y;AEHIOUWYBFPVCGJKQSXZDTLMNR;00000000111122222222334556;;
+      y;;;cs;y;0;;d;s;^;$f;;s;$;0000;;m;(^.{4});;$1;}:q;;;
+    }
 
 ## SLU (MAZE.BAS)
 
