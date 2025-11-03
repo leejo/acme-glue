@@ -4,7 +4,7 @@ use utf8;
 use strict;
 use warnings;
 
-$Acme::Glue::VERSION = "2025.09";
+$Acme::Glue::VERSION = "2025.11";
 
 =encoding utf8
 
@@ -14,7 +14,7 @@ Acme::Glue - A placeholder module for code accompanying a Perl photo project
 
 =head1 VERSION
 
-2025.09
+2025.11
 
 =head1 DESCRIPTION
 
